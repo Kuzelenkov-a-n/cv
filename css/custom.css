@@ -1,0 +1,57 @@
+.contacts {
+  word-spacing: 1em;
+}
+
+.skills {
+  margin-bottom: 3em;
+}
+
+.work {
+  line-height: 1.2em;
+}
+
+.person_info {
+  margin-top: 3em;
+  line-height: 1.2em;
+}
+
+.experience {
+  text-align: justify;
+  margin-top: 3em;
+  line-height: 1.5em;
+}
+
+.education {
+  word-spacing: 0.5em;
+  margin-top: 3em;
+  line-height: 1.2em;
+}
+
+.courses {
+  margin-top: 3em;
+  line-height: 1.2em;
+}
+
+.addition {
+  margin-top: 3em;
+  line-height: 1.2em;
+  margin-bottom: 2em;
+}
+
+.qualities {
+  margin-top: 3em;
+  line-height: 1.2em;
+  margin-bottom: 5em;
+}
+
+.color_fragment {
+  color: dimgrey;
+}
+
+p {
+  margin-bottom: 2%;
+}
+
+h3, h5, h6 {
+  margin-bottom: 10px;
+}
