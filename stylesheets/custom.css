@@ -1,5 +1,15 @@
 .contacts {
   word-spacing: 1em;
+  margin-left: 27%;
+  margin-bottom: 3em;
+}
+
+figure {
+  margin-left: 14%;
+}
+
+.contacts a {
+  margin-left: 2%;
 }
 
 .skills {
@@ -8,6 +18,7 @@
 
 .work {
   line-height: 1.2em;
+  margin-top: 2.5em;
 }
 
 .person_info {
@@ -57,8 +68,74 @@ p {
   margin-bottom: 2%;
 }
 
+.skills li {
+  list-style-type: none;
+}
+
 h3, h5 {
   margin-bottom: 10px;
+}
+
+mark {
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 2px 6px 4px 6px;
+  background: white;
+  font-weight: bold;
+}
+
+.dev_desc {
+  border: 1px solid;
+  padding: 6px;
+  background: white;
+  color: black;
+  font-weight: bold;
+  line-height: 2em;
+}
+
+.dev_desc ul {
+  margin: 0.5em 0 0.5em 0;
+}
+
+.integration {
+  border: 1px solid;
+  background: white;
+  padding: 2px 0 2px 0;
+  border-radius: 12px 12px 0 0;
+  text-align: center;
+}
+
+.integration p {
+  margin-top: 0.5em;
+  font-size: large;
+  font-weight: bold;
+}
+
+.modify {
+  border: 1px solid;
+  background: white;
+  padding: 2px 0 2px 0;
+  text-align: center;
+}
+
+.modify p {
+  margin-top: 0.5em;
+  font-size: large;
+  font-weight: bold;
+}
+
+.doc_crm {
+  border: 1px solid;
+  border-radius: 0 0 12px 12px;
+  background: white;
+  padding: 2px 0 2px 0;
+  text-align: center;
+}
+
+.doc_crm p {
+  margin-top: 0.5em;
+  font-size: large;
+  font-weight: bold;
 }
 
 @media (max-width: 800px) {
