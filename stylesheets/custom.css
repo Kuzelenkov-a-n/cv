@@ -1,52 +1,63 @@
+
+
 .contacts {
   word-spacing: 1em;
+  margin-left: 27%;
+  margin-bottom: 3em;
 }
 
-.skills {
-  margin-bottom: 3em;
+.contacts a {
+  margin-left: 2%;
+}
+
+figure {
+  margin-left: 14%;
 }
 
 .work {
   line-height: 1.2em;
-}
-
-.person_info {
   margin-top: 3em;
-  line-height: 1.2em;
 }
 
 .experience {
-  margin-top: 3.5em;
+  margin-top: 3em;
   line-height: 1.5em;
 }
 
 .portfolio {
   word-spacing: 0.5em;
-  margin-top: 2em;
+  margin-top: 3em;
   line-height: 1.2em;
 }
 
 .education {
   word-spacing: 0.5em;
-  margin-top: 2em;
+  margin-top: 3em;
   line-height: 1.2em;
 }
 
+.education hr {
+  margin-bottom: 0;
+}
+
 .courses {
-  margin-top: 3.5em;
+  margin-top: 3em;
   line-height: 1.2em;
+}
+
+.courses hr {
+  margin-bottom: 0;
 }
 
 .addition {
   margin-top: 3em;
   line-height: 1.2em;
-  margin-bottom: 2em;
+  /*margin-bottom: 2em;*/
 }
 
 .qualities {
   margin-top: 3em;
   line-height: 1.2em;
-  margin-bottom: 5em;
 }
 
 .color_fragment {
@@ -57,8 +68,19 @@ p {
   margin-bottom: 2%;
 }
 
+.skills li {
+  list-style-type: none;
+}
+
 h3, h5 {
   margin-bottom: 10px;
+}
+
+mark {
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 2px 6px 4px 6px;
+  background: white;
 }
 
 @media (max-width: 800px) {
@@ -70,5 +92,27 @@ h3, h5 {
   .one-half.column {
     width: 100%;
     margin-left: 0;
+  }
+
+  .description, .contacts {
+    text-align: center;
+    margin: 0;
+  }
+}
+
+@media (max-width: 1000px) {
+  .contacts, .skills, .work, .person_info, .experience, .portfolio, .education, .courses, .addition, .qualities {
+    margin-top: 3em;
+    margin-bottom: 0;
+  }
+
+  .one-half.column {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .description, .contacts {
+    text-align: center;
+    margin: 0;
   }
 }
