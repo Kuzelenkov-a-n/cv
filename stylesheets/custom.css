@@ -1,5 +1,3 @@
-
-
 .contacts {
   word-spacing: 1em;
   margin-left: 27%;
@@ -52,7 +50,6 @@ figure {
 .addition {
   margin-top: 3em;
   line-height: 1.2em;
-  /*margin-bottom: 2em;*/
 }
 
 .qualities {
@@ -81,23 +78,6 @@ mark {
   border-radius: 5px;
   padding: 2px 6px 4px 6px;
   background: white;
-}
-
-@media (max-width: 800px) {
-  .contacts, .skills, .work, .person_info, .experience, .portfolio, .education, .courses, .addition, .qualities {
-    margin-top: 3em;
-    margin-bottom: 0;
-  }
-
-  .one-half.column {
-    width: 100%;
-    margin-left: 0;
-  }
-
-  .description, .contacts {
-    text-align: center;
-    margin: 0;
-  }
 }
 
 @media (max-width: 1000px) {
