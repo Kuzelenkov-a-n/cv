@@ -91,7 +91,7 @@ mark {
     margin-left: 0;
   }
 
-  .description, .contacts {
+  .description, .contacts, a {
     text-align: center;
     margin: 0;
   }
